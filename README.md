@@ -12,6 +12,8 @@ The designs are:
 
 - [Design 4](https://xd.adobe.com/view/eda6f4aa-d063-47c3-9ed4-3048130cef22-b8f5/)
 
+The solution for the test is deployed [here](https://korvue.vercel.app/)
+
 ### Prerequisites
 
 ```
