@@ -1,0 +1,23 @@
+@mixin google-font($family) {
+  // @import url("http://fonts.googleapis.com/css?family=#{$family}");
+  @import url("https://fonts.googleapis.com/css2?family=#{$family}&display=swap");
+}
+
+@mixin arialRegular($size, $lineHeight) {
+  font: normal normal normal #{$size}/#{$lineHeight} Arial;
+  letter-spacing: 0px;
+  text-overflow: ellipsis;
+}
+
+@mixin openSansRegular {
+  text-overflow: ellipsis;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+}
+@mixin openSansSemiBold {
+  font: normal normal 600 25px/34px "Open Sans", sans-serif;
+  letter-spacing: 0px;
+  opacity: 1;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,13 @@
+.container {
+  background-color: aqua;
+  height: 100px;
+  width: 100%;
+  &__child {
+    height: 1em;
+    width: 1em;
+    border: solid black 2px;
+    &--modifier {
+      border: 3px red;
+    }
+  }
+}

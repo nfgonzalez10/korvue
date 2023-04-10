@@ -1,0 +1,29 @@
+@import "../../typography.scss";
+
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 16px;
+  left: 950px;
+  width: 200px;
+  height: 40px;
+  background: var(--tundora-ligth) 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  @include arialRegular(18px, 21px);
+  color: var(--alice-blue);
+  opacity: 1;
+  &:hover {
+    color: var(--white-solid);
+    background: #7d869a 0% 0% no-repeat padding-box;
+  }
+  &--table {
+    text-transform: uppercase;
+    @include arialRegular(12px, 14px);
+    width: 88px;
+    height: 28px;
+    background: #7d869a 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: var(--white-solid);
+  }
+}

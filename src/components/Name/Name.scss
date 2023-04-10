@@ -1,0 +1,16 @@
+@import "../../typography.scss";
+
+@include google-font("Open+Sans:wght@600");
+.name {
+  display: inline-flex;
+  align-items: center;
+  gap: 17px;
+  &__icon {
+    font-size: 25px;
+    color: var(--silver-chalise);
+  }
+  &__span {
+    color: var(--black-solid);
+    @include openSansSemiBold;
+  }
+}
