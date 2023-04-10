@@ -1,0 +1,28 @@
+@import "../../typography.scss";
+.activity {
+  width: 559px;
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    text-transform: uppercase;
+    color: var(--mine-shaft-dark);
+    @include openSansRegular;
+    background-color: var(--zumthor);
+  }
+  &__box {
+    display: inline-flex;
+    gap: 2px;
+  }
+  &__content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include openSansSemiBold;
+    font-size: 50px;
+  }
+}

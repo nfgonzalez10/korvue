@@ -1,0 +1,45 @@
+@import "../../typography.scss";
+.table {
+  width: 100%;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  &__header {
+    border-bottom: 1px solid #d8d8d8;
+  }
+  &__body {
+    border-bottom: 1px solid #95989a;
+  }
+  &__row {
+    height: 70px;
+    @include openSansRegular;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--mine-shaft-dark);
+    &--letterXL {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &--header {
+      text-align: left;
+      text-transform: uppercase;
+      height: 25px;
+      color: var(--tundora-dark);
+      @include arialRegular(10px, 11px);
+    }
+    &--double {
+      display: flex;
+      flex-direction: column;
+    }
+    &--gray {
+      background-color: #f2f4f7;
+    }
+    &--padding {
+      padding-left: 10px;
+    }
+    &--button {
+      text-align: center;
+      width: 11%;
+    }
+  }
+}

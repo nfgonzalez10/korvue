@@ -1,0 +1,31 @@
+@import "./assets/fontawesome-pro-5.15.4-web/scss/fontawesome.scss";
+@import "./assets/fontawesome-pro-5.15.4-web/scss/solid.scss";
+@import "./assets/fontawesome-pro-5.15.4-web/scss/light.scss";
+
+body {
+  margin: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  // Add colors aplication here
+  --white-solid: #ffffff;
+  --concrete: #f2f2f2;
+  --alto-dark: #d2d2d2;
+  --alto: #d4d4d4;
+  --zumthor: #edf5ff;
+  --pigeon-post: #b0c6d8;
+  --tundora-ligth: #404040;
+  --tundora-dark: #444444;
+  --tundora: #4d4d4d;
+  --mine-shaft: #3a3a3a;
+  --mine-shaft-dark: #333333;
+  --black-solid: #000000;
+  --waterloo: #7d869a;
+  --olso-gray: #95989a;
+  --athens-gray: #f2f4f7;
+  --hint-green: #edffed;
+  --silver-chalise: #aaaaaa;
+  --alice-blue: #fcfeff;
+}

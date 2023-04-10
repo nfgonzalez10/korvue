@@ -1,0 +1,23 @@
+@import "../../typography.scss";
+
+.switch {
+  display: inline-flex;
+  gap: 5px;
+  &__button {
+    padding: 0px;
+    border: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 67px;
+    height: 23px;
+    border-radius: 11px;
+    opacity: 1;
+    background-color: var(--waterloo);
+    @include arialRegular(10px, 11px);
+    color: var(--white-solid);
+    &--white {
+      color: var(--mine-shaft);
+      background-color: var(--white-solid);
+    }
+  }
+}

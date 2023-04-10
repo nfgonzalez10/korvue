@@ -1,0 +1,26 @@
+@import "../../typography.scss";
+
+.tabs {
+  list-style-type: none;
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+  margin-block-end: 0px;
+  display: flex;
+  &__tab {
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 165px;
+    display: flex;
+    @include arialRegular(12px, 14px);
+    height: 40px;
+    background-color: var(--alto-dark);
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--mine-shaft);
+    &--active {
+      background-color: var(--mine-shaft);
+      color: var(--white-solid);
+    }
+  }
+}
